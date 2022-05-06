@@ -10,6 +10,7 @@ body {
 html {
     scroll-behavior: smooth;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .first-section {
