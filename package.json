@@ -1,0 +1,19 @@
+{
+  "name": "efada",
+  "version": "1.0.0",
+  "description": "\"# Efada\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamerAtawna/Efada.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamerAtawna/Efada/issues"
+  },
+  "homepage": "https://github.com/SamerAtawna/Efada#readme"
+}
