@@ -356,6 +356,10 @@ html {
     max-width: 70%;
 }
 
+.m-bottom {
+    margin-bottom: -60px;
+}
+
 .six-height {
     height: 350px !important;
 }
@@ -479,11 +483,28 @@ html {
     flex-direction: column;
 }
 
+.spacer {
+    min-height: 120px;
+}
+
 @media screen and (max-width: 1233px) {
     .mb-fix {
         margin-bottom: 450px !important;
     }
+
+    .splide__pagination--custom {
+        display: none !important;
+    }
+
+    .footer-middle {
+        width: 350px !important;
+    }
+
+    .spacer {
+        height: 180px !important;
+    }
 }
+
 
 .counter {
     font-size: 2rem;

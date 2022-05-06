@@ -42,7 +42,7 @@
           <div class="col-lg-5 d-none d-lg-block">
             <div class="head-left d-flex flex-column">
               <div class="head-left-top d-none d-lg-flex">
-                <div class="pr-3 ">EN<i class="bi bi-globe pl-1"></i></div>
+                <div class="pr-3">EN<i class="bi bi-globe pl-1"></i></div>
                 <div class="px-3"><i class="bi bi-envelope"></i> info@efadh.com.sa</div>
                 <div class="px-3"><i class="bi bi-telephone"></i> 920008831</div>
               </div>
@@ -82,7 +82,7 @@
         </nav>
         <!-- scroller -->
         <div class="row d-flex justify-content-center align-items-center pt-5 slider">
-          <section class="splide" aria-labelledby="carousel-heading" id="splide2">
+          <div class="splide" aria-labelledby="carousel-heading" id="splide2">
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide text-center">
@@ -103,7 +103,7 @@
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
         </div>
         <div class="row">
           <div class="col d-flex justify-content-center mt-5 pt-5">
@@ -273,7 +273,7 @@
                 <div class="splide__slide">
                   <div class="card m-3 text-center border-0 d-flex flex-column justify-content-end align-items-end p-3">
                     <img class="img img-fluid news-image" src="assets/000.png" />
-                    <div style="min-height: 120px"></div>
+                    <div class="spacer" style="min-height: 120px"></div>
                     <div class="news-date pt-4">الأحد ، الموافق 29 / 01 / 2022</div>
                     <div class="news-desc pt-2">
                       هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
@@ -284,7 +284,7 @@
                 <div class="splide__slide">
                   <div class="card m-3 text-center border-0 d-flex flex-column justify-content-end align-items-end p-3">
                     <img class="img img-fluid news-image" src="assets/111.png" />
-                    <div style="min-height: 120px"></div>
+                    <div class="spacer"></div>
                     <div class="news-date pt-4">الأحد ، الموافق 29 / 01 / 2022</div>
                     <div class="news-desc pt-2">
                       هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
@@ -295,7 +295,7 @@
                 <div class="splide__slide">
                   <div class="card m-3 text-center border-0 d-flex flex-column justify-content-end align-items-end p-3">
                     <img class="img img-fluid news-image" src="assets/222.png" />
-                    <div style="min-height: 120px"></div>
+                    <div class="spacer"></div>
                     <div class="news-date pt-4">الأحد ، الموافق 29 / 01 / 2022</div>
                     <div class="news-desc pt-2">
                       هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
@@ -320,7 +320,7 @@
     </div>
     <!-- SIXTH SECTION -->
     <div class="container mb-xl-5 mb-fix">
-      <div class="row six-height six-image-bg pt-5 position-relative">
+      <div class="row six-image-bg pt-5 position-relative m-1">
         <img class="img-fluid w-25 position-absolute right-bg" src="assets/leftbg.png" alt="" srcset="" />
         <div class="col-lg-10 col-12 text-light d-flex flex-column align-items-end text-right" id="counters">
           <h2>احصائياتنا تتحدث</h2>
@@ -328,8 +328,8 @@
             هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة
             التي يقرأها
           </h6>
-          <div class="d-flex flex-wrap justify-content-center">
-            <div class="stats-border mx-2">
+          <div class="d-flex flex-wrap justify-content-center m-bottom">
+            <div class="stats-border mx-2 mb-1">
               <div class="card d-flex flex-column align-items-center justify-content-end text-primary p-3">
                 <div class="img">
                   <img class="img img-fluid w-75 pt-0 pb-5" src="assets/z.png" />
@@ -377,20 +377,21 @@
       </div>
     </div>
     <!-- SEVENTH SECTION -->
-    <div class="container pt-5 mt-5 mb-5 pb-5">
+    <div class="container pt-lg-3 mb-5 pb-5 pt-0">
       <div class="row">
         <div class="col-lg-9 col-12">
           <div class="border border-round p-2">
             <div class="accordion">
               <div class="faq-item accordion-item border-round text-right p-3 mb-4">
-                <div class="accordion-header" id="headingOne">
-                  <i
-                    class="bi bi-plus float-left accordion-button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  ></i>
+                <div
+                  class="accordion-header accordion-button"
+                  id="headingOne"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <i class="bi bi-plus float-left"></i>
                   <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
                 </div>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -403,14 +404,15 @@
                 </div>
               </div>
               <div class="faq-item accordion-item border-round text-right p-3 mb-4">
-                <div class="accordion-header" id="headingOne">
-                  <i
-                    class="bi bi-plus float-left accordion-button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="true"
-                    aria-controls="collapseTwo"
-                  ></i>
+                <div
+                  class="accordion-header accordion-button"
+                  id="headingOne"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  <i class="bi bi-plus float-left"></i>
                   <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
                 </div>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -423,14 +425,15 @@
                 </div>
               </div>
               <div class="faq-item accordion-item border-round text-right p-3 mb-4">
-                <div class="accordion-header" id="headingOne">
-                  <i
-                    class="bi bi-plus float-left accordion-button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="true"
-                    aria-controls="collapseThree"
-                  ></i>
+                <div
+                  class="accordion-header accordion-button"
+                  id="headingOne"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                  <i class="bi bi-plus float-left"></i>
                   <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
                 </div>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -443,14 +446,15 @@
                 </div>
               </div>
               <div class="faq-item accordion-item border-round text-right p-3 mb-4">
-                <div class="accordion-header" id="headingOne">
-                  <i
-                    class="bi bi-plus float-left accordion-button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour"
-                    aria-expanded="true"
-                    aria-controls="collapseFour"
-                  ></i>
+                <div
+                  class="accordion-header accordion-button"
+                  id="headingOne"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                >
+                  <i class="bi bi-plus float-left"></i>
                   <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
                 </div>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -463,14 +467,15 @@
                 </div>
               </div>
               <div class="faq-item accordion-item border-round text-right p-3 mb-4">
-                <div class="accordion-header" id="headingOne">
-                  <i
-                    class="bi bi-plus float-left accordion-button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFive"
-                    aria-expanded="true"
-                    aria-controls="collapseFive"
-                  ></i>
+                <div
+                  class="accordion-header accordion-button"
+                  id="headingOne"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="true"
+                  aria-controls="collapseFive"
+                >
+                  <i class="bi bi-plus float-left"></i>
                   <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
                 </div>
                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -533,7 +538,7 @@
     <!-- FOOTER -->
     <div class="container-fluid footer">
       <div class="row mb-5">
-        <div class="col">
+        <div class="col-12">
           <div class="s d-flex justify-content-center position-relative">
             <div class="footer-middle bg-light d-flex align-items-center px-2 justify-content-between">
               <div class="btn btn-secondary text-light m-2">ارسال</div>

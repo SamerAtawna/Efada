@@ -54,7 +54,7 @@ var splide = new Splide('.splide', {
   height: '10rem',
   wheel: true,
   arrows: false,
-  height: '200px',
+  height: '300px',
   width: '500px',
   autoplay: true,
   classes: {
