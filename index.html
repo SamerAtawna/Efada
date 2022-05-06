@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/splide-core.min.css" />
+
+    <!-- scss -->
+  </head>
+  <body>
+    <!-- FIRST SECTION -->
+    <div class="container-fluid first-section">
+      <div class="overlay"></div>
+      <div class="overlay-image">
+        <img class="w-75" src="assets/leftbg.png" alt="" />
+      </div>
+      <div class="container pt-4" style="z-index: 2">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="col-lg-5 col-md-12">
+            <div class="head-left d-flex flex-column">
+              <div class="head-left-top d-none d-lg-flex">
+                <div class="pr-3 m-2">EN<i class="bi bi-globe pl-1"></i></div>
+                <div class="px-3"><i class="bi bi-envelope"></i> info@efadh.com.sa</div>
+                <div class="px-3"><i class="bi bi-telephone"></i> 920008831</div>
+              </div>
+              <div class="head-left-top pt-3 d-none d-lg-block">
+                <div class="btn btn-light bg-transparent border-light text-light">تسجيل الدخول</div>
+                <div class="btn btn-secondary text-light mx-2 px-5">تسجيل</div>
+              </div>
+            </div>
+          </div>
+          <div style="direction: rtl" class="col-lg-7 d-md-flex flex-column justify-content-end align-items-lg-start">
+            <button
+              class="navbar-toggler float-right"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav navbar-nav collapse navbar-collapse" id="navbarTogglerDemo01">
+              <li class="px-2 nav-item position-relative"><a class="nav-link nav-link-ltr" href="#contact"> اتصل بنا </a></li>
+              <li class="px-2 nav-link nav-link-ltr position-relative">عروض</li>
+              <li class="px-2 nav-link nav-link-ltr position-relative">توظيف</li>
+              <li class="px-2 nav-link nav-link-ltr position-relative">خدماتنا</li>
+              <li class="px-2 nav-link nav-link-ltr position-relative">عن الشركة</li>
+              <li class="px-2 nav-link nav-link-ltr position-relative">الصفحة الرئيسية</li>
+            </ul>
+          </div>
+          <div class="col-1">
+            <!-- logo -->
+            <div class="logo navbar-brand">
+              <img class="img-fluid" src="assets/logo.png" alt="" />
+            </div>
+          </div>
+        </nav>
+        <!-- scroller -->
+        <div class="row d-flex justify-content-center align-items-center pt-5 slider">
+          <section class="splide" aria-labelledby="carousel-heading" id="splide2">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide text-center">
+                  <h3 class="mb-3">تحسين الإنتاجية في مكان العمل</h3>
+                  <h3>لتحقيق النجاح في العمل اليوم ، يجب أن تكون مرنًا وأن يكون لديك تخطيط جيد</h3>
+                  <div class="store-images pt-4">
+                    <img class="img-fluid pr-2" src="assets/apple.png" alt="" />
+                    <img class="img-fluid" src="assets/android.png" alt="" />
+                  </div>
+                </li>
+                <li class="splide__slide text-center">
+                  <h3 class="mb-3">تحسين الإنتاجية في مكان العمل</h3>
+                  <h3>لتحقيق النجاح في العمل اليوم ، يجب أن تكون مرنًا وأن يكون لديك تخطيط جيد</h3>
+                </li>
+                <li class="splide__slide text-center">
+                  <h3 class="mb-3">تحسين الإنتاجية في مكان العمل</h3>
+                  <h3>لتحقيق النجاح في العمل اليوم ، يجب أن تكون مرنًا وأن يكون لديك تخطيط جيد</h3>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center mt-5 pt-5">
+            <div class="container-1">
+              <div class="mouse">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECOND SECTION -->
+    <div class="container pt-5 pb-5" id="second_section">
+      <div class="row">
+        <div class="col-lg-9 col-12">
+          <div class="splide splide2">
+            <div class="splide__track">
+              <div class="splide__list">
+                <div class="splide__slide">
+                  <div class="card first-enter m-3 border-0 d-flex flex-column justify-content-between text-center align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid w-75" src="assets/2.png" />
+                    </div>
+                    <div class="desc pt-4">القطاع الطبي</div>
+                    <div class="gold text-center mt-3 p-1"><i class="bi bi-arrow-left"></i></div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card first-enter m-3 text-center border-0 d-flex flex-column justify-content-between align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid w-75" src="assets/1.png" />
+                    </div>
+                    <div class="desc pt-4">قطاع الأعمال</div>
+                    <div class="gold text-center mt-3 p-1"><i class="bi bi-arrow-left"></i></div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card first-enter m-3 text-center border-0 d-flex flex-column justify-content-between align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid w-75" src="assets/3.png" />
+                    </div>
+                    <div class="desc pt-4 text-center">عمالة منزلية بالتأجير الشهري</div>
+                    <div class="gold text-center mt-3 p-1"><i class="bi bi-arrow-left"></i></div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card first-enter m-3 text-center border-0 d-flex flex-column justify-content-between align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid w-75" src="assets/4.png" />
+                    </div>
+                    <div class="desc pt-4 text-center">عمالة منزلية بالساعة</div>
+                    <div class="gold text-center mt-3 p-1"><i class="bi bi-arrow-left"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 order-lg-0 order-first">
+          <div class="sec-desc border-0 d-flex flex-column justify-content-between align-items-center p-3">
+            <h2>مجالات وقطاعات الأعمال</h2>
+            <div class="line mt-3 align-self-lg-end"></div>
+            <div class="text-center mt-3 p-1 align-self-lg-end">
+              <a href="#" class="btn border-1 border-primary p-1"><i class="bi bi-arrow-left btn-primary btn"></i> اكتشف المزيد</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- THIRD SECTION -->
+    <div class="container pb-5 mt-5 pt-5 third_section position-relative">
+      <div class="overlay-image-third">
+        <img class="w-75" src="assets/6.png" alt="" />
+      </div>
+      <div class="row">
+        <div class="col-5 position-relative d-flex flex-column justify-content-center">
+          <div class="third-text card p-3 position-absolute border-0">
+            . لاشك أن مشوار الألف ميل يبدأ بخطوة واحدة نحـن فـي شركـة أفـادة للمــوارد البشريـة بعـون الله تعالـي قد بـدأنـا هذا المـشـوار ، ووضعـنا
+            نصـب أعيننا رؤية مستقبلية واضحه وهي تقديم خدمة راقية في مجال توريد العمالة بصورة قائمة على أحـدث النظـم التـي تتلاءم مع ثقافتنـا
+            وتقالـيدنـا وتتماشي مـع مـا تتطلبـه المرحلـة القادمـة ورؤيـة 2030
+          </div>
+        </div>
+        <div class="col-7 d-flex justify-content-end align-items-center bg-image px-5">
+          <div></div>
+          <div><img class="img-fluid h-170" src="assets/white-logo.png" alt="" srcset="" /></div>
+          <div class="pl-5 ml-5">
+            <h3 class="text-light display-5 t-right">تعرف <br />علي <br />الشركة</h3>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOURTH SECTION -->
+    <div class="container pt-5 pb-5">
+      <div class="row">
+        <div class="col-lg-9 col-12">
+          <div class="splide splide3">
+            <div class="splide__track">
+              <div class="splide__list">
+                <div class="splide__slide">
+                  <div class="card m-3 border-0 d-flex flex-column justify-content-between text-center align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid" src="assets/00.png" />
+                    </div>
+                    <div class="desc pt-4">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+                      في الصفحة التي يقرأها
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card m-3 text-center border-0 d-flex flex-column justify-content-between align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid" src="assets/11.png" />
+                    </div>
+                    <div class="desc pt-4">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+                      في الصفحة التي يقرأها
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card m-3 text-center border-0 d-flex flex-column justify-content-between align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid" src="assets/22.png" />
+                    </div>
+                    <div class="desc pt-4 text-center">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+                      في الصفحة التي يقرأها
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card m-3 text-center border-0 d-flex flex-column justify-content-between align-items-center p-3">
+                    <div class="icon p-1">
+                      <img class="img img-fluid" src="assets/33.png" />
+                    </div>
+                    <div class="desc pt-4 text-center">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+                      في الصفحة التي يقرأها
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 order-first order-lg-0">
+          <div class="sec-desc border-0 d-flex flex-column justify-content-between align-items-center p-3">
+            <h2>عملائنا المميزون لدينا</h2>
+            <div class="line mt-3 align-self-lg-end"></div>
+            <div class="text-center mt-3 p-1 align-self-lg-end">
+              <a href="#" class="btn border-1 border-primary p-1"><i class="bi bi-arrow-left btn-primary btn"></i> اكتشف المزيد</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIFTH SECTION -->
+    <div class="container pt-5 pb-5" id="fifthSection">
+      <div class="row">
+        <div class="col-lg-9 col-12">
+          <div class="splide splide4">
+            <div class="splide__track">
+              <div class="splide__list">
+                <div class="splide__slide">
+                  <div class="card m-3 text-center border-0 d-flex flex-column justify-content-end align-items-end p-3">
+                    <img class="img img-fluid news-image" src="assets/000.png" />
+                    <div style="min-height: 120px"></div>
+                    <div class="news-date pt-4">الأحد ، الموافق 29 / 01 / 2022</div>
+                    <div class="news-desc pt-2">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+                      في الصفحة التي يقرأها
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card m-3 text-center border-0 d-flex flex-column justify-content-end align-items-end p-3">
+                    <img class="img img-fluid news-image" src="assets/111.png" />
+                    <div style="min-height: 120px"></div>
+                    <div class="news-date pt-4">الأحد ، الموافق 29 / 01 / 2022</div>
+                    <div class="news-desc pt-2">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+                      في الصفحة التي يقرأها
+                    </div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="card m-3 text-center border-0 d-flex flex-column justify-content-end align-items-end p-3">
+                    <img class="img img-fluid news-image" src="assets/222.png" />
+                    <div style="min-height: 120px"></div>
+                    <div class="news-date pt-4">الأحد ، الموافق 29 / 01 / 2022</div>
+                    <div class="news-desc pt-2">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+                      في الصفحة التي يقرأها
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12 order-lg-0 order-first">
+          <div class="sec-desc border-0 d-flex flex-column justify-content-between align-items-center p-3">
+            <h2>اخر اخبار الشركة</h2>
+            <div class="line mt-3 align-self-lg-end"></div>
+            <div class="text-center mt-3 p-1 align-self-lg-end">
+              <a href="#" class="btn border-1 border-primary p-1"><i class="bi bi-arrow-left btn-primary btn"></i> اكتشف المزيد</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SIXTH SECTION -->
+    <div class="container mb-xl-5 mb-fix">
+      <div class="row six-height six-image-bg pt-5 position-relative">
+        <img class="img-fluid w-25 position-absolute right-bg" src="assets/leftbg.png" alt="" srcset="" />
+        <div class="col-lg-10 col-12 text-light d-flex flex-column align-items-end text-right" id="counters">
+          <h2>احصائياتنا تتحدث</h2>
+          <h6 class="max-70 pb-3">
+            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة
+            التي يقرأها
+          </h6>
+          <div class="d-flex flex-wrap justify-content-center">
+            <div class="stats-border mx-2">
+              <div class="card d-flex flex-column align-items-center justify-content-end text-primary p-3">
+                <div class="img">
+                  <img class="img img-fluid w-75 pt-0 pb-5" src="assets/z.png" />
+                </div>
+                <div class="counter font-weight-bold" id="firstNum">0</div>
+                <p>زبائن يشعرون بالرضى</p>
+              </div>
+            </div>
+            <div class="stats-border mx-2">
+              <div class="card d-flex flex-column align-items-center justify-content-end text-primary p-3">
+                <div class="img">
+                  <img class="img img-fluid w-75 pt-0 pb-5" src="assets/x.png" />
+                </div>
+                <div class="counter font-weight-bold" id="secondNum">0</div>
+                <p>زبائن يشعرون بالرضى</p>
+              </div>
+            </div>
+            <div class="stats-border mx-2">
+              <div class="card d-flex flex-column align-items-center justify-content-end text-primary p-3">
+                <div class="img">
+                  <img class="img img-fluid w-75 pt-0 pb-5" src="assets/c.png" />
+                </div>
+                <div class="counter font-weight-bold" id="thirdNum">0</div>
+                <p>زبائن يشعرون بالرضى</p>
+              </div>
+            </div>
+            <div class="stats-border mx-2">
+              <div class="card position-relative d-flex flex-column align-items-center justify-content-end text-primary p-3">
+                <div class="card-selected position-absolute">
+                  <img class="img-fluid" src="assets/btmsel.png" alt="" />
+                </div>
+                <div class="img">
+                  <img class="img img-fluid w-75 pt-0 pb-5" src="assets/v.png" />
+                </div>
+                <div class="counter font-weight-bold z-index-1" id="forthNum">0</div>
+                <p class="z-index-1">زبائن يشعرون بالرضى</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 d-none d-lg-block text-light text-right">
+          <h3 class="text-light display-5 mt-5 t-right">تعرف <br />علي <br />الشركة</h3>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+    <!-- SEVENTH SECTION -->
+    <div class="container pt-5 mt-5 mb-5 pb-5">
+      <div class="row">
+        <div class="col-lg-9 col-12">
+          <div class="border border-round p-2">
+            <div class="accordion">
+              <div class="faq-item accordion-item border-round text-right p-3 mb-4">
+                <div class="accordion-header" id="headingOne">
+                  <i
+                    class="bi bi-plus float-left accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  ></i>
+                  <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body pt-3">
+                    هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة
+                    وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال
+                    لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا
+                    النمط والشكل
+                  </div>
+                </div>
+              </div>
+              <div class="faq-item accordion-item border-round text-right p-3 mb-4">
+                <div class="accordion-header" id="headingOne">
+                  <i
+                    class="bi bi-plus float-left accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  ></i>
+                  <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
+                </div>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body pt-3">
+                    هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة
+                    وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال
+                    لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا
+                    النمط والشكل
+                  </div>
+                </div>
+              </div>
+              <div class="faq-item accordion-item border-round text-right p-3 mb-4">
+                <div class="accordion-header" id="headingOne">
+                  <i
+                    class="bi bi-plus float-left accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  ></i>
+                  <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
+                </div>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body pt-3">
+                    هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة
+                    وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال
+                    لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا
+                    النمط والشكل
+                  </div>
+                </div>
+              </div>
+              <div class="faq-item accordion-item border-round text-right p-3 mb-4">
+                <div class="accordion-header" id="headingOne">
+                  <i
+                    class="bi bi-plus float-left accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  ></i>
+                  <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
+                </div>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body pt-3">
+                    هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة
+                    وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال
+                    لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا
+                    النمط والشكل
+                  </div>
+                </div>
+              </div>
+              <div class="faq-item accordion-item border-round text-right p-3 mb-4">
+                <div class="accordion-header" id="headingOne">
+                  <i
+                    class="bi bi-plus float-left accordion-button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  ></i>
+                  <div class="question">هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل ؟</div>
+                </div>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body pt-3">
+                    هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة
+                    وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال
+                    لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا النمط والشكل هذا النص مجرد مثال لشكل السؤال الموضوع هنا لإظهارة وتوضيحة علي هذا
+                    النمط والشكل
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec-desc col-lg-3 col-12 order-first order-lg-0 border-0 d-flex flex-column justify-content-center align-items-center p-3">
+          <h2>الأسئلة الأكثر شيوعاً</h2>
+          <div class="line mt-3 align-self-lg-end"></div>
+          <div class="text-center mt-3 p-1 align-self-lg-end">
+            <a href="#" class="btn border-1 border-primary p-1"><i class="bi bi-arrow-left btn-primary btn"></i> اكتشف المزيد</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Faq Section -->
+    <!-- EIGHTH SECTION -->
+    <div class="container mb-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6 d-none d-lg-block">
+          <!-- <img src="assets/map.png" alt="" class="img-fluid" /> -->
+          <div id="map"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 text-right">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">اسمك الشخصي</label>
+            <input type="text" class="form-control shadow border-0 text-right" id="exampleFormControlInput1" placeholder="ادخل اسمك الشخصي" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">الكنية</label>
+            <input type="text" class="form-control shadow border-0 text-right" id="exampleFormControlInput1" placeholder="ادخل الكنية" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">بريدك الإلكتروني</label>
+            <input type="email" class="form-control shadow border-0 text-right" id="exampleFormControlInput1" placeholder="ادخل بريدك الإلكتروني" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">الكنية</label>
+            <input type="text" class="form-control shadow border-0 text-right" id="exampleFormControlInput1" placeholder="ادخل الكنية" />
+          </div>
+          <div class="btn btn-secondary text-light m-2">ارسال</div>
+        </div>
+        <div class="col-lg-2 col-md-6 order-md-last col-12 order-lg-0 order-first" id="contact">
+          <div class="sec-desc border-0 d-flex flex-column justify-content-between align-items-center p-3">
+            <h2>تواصل معنا الان</h2>
+            <div class="line mt-3 align-self-lg-end"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End EIGHTH SECTION -->
+    <!-- FOOTER -->
+    <div class="container-fluid footer">
+      <div class="row mb-5">
+        <div class="col">
+          <div class="s d-flex justify-content-center position-relative">
+            <div class="footer-middle bg-light d-flex align-items-center px-2 justify-content-between">
+              <div class="btn btn-secondary text-light m-2">ارسال</div>
+              <div class="txt">اشترك في لقائمة البريدية الآن <i class="bi bi-envelope pl-2"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-light bg-footer pt-5">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="footer-list text-right text-light">
+            <h5 class="text-lg-right text-center">الخدمات</h5>
+            <div class="line mb-4 m-auto m-lg-0"></div>
+            <ul>
+              <li class="pb-3">
+                <i class="bi bi-facebook pl-3 gold border-0"></i>
+                <a href="#">تابعنا عبر الفيسبوك</a>
+              </li>
+              <li class="pb-3">
+                <i class="bi bi-twitter pl-3 gold border-0"></i>
+                <a href="#">تابعنا عبر تويتر</a>
+              </li>
+              <li class="pb-3">
+                <i class="bi bi-instagram pl-3 gold border-0"></i>
+                <a href="#">تابعنا عبر إنستجرام</a>
+              </li>
+              <li class="pb-3">
+                <i class="bi bi-youtube pl-3 gold border-0"></i>
+                <a href="#">تابعنا عبر اليوتيوب</a>
+              </li>
+            </ul>
+            <p class="gold border-0 w-100">قم بتحميل التطبيق الآن</p>
+            <div class="store-images pt-4">
+              <img class="img-fluid pr-2 p-md-2" src="assets/apple.png" alt="" />
+              <img class="img-fluid" src="assets/android.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12 pt-5 pt-md-0">
+          <div class="footer-list text-right text-light">
+            <h5 class="text-lg-right text-center">تواصل معنا</h5>
+            <div class="line mb-4 m-auto m-lg-0"></div>
+            <ul>
+              <li class="pb-3">
+                <i class="bi bi-envelope pl-3 gold border-0"></i>
+                <a href="#">info@efadah.com.sa</a>
+              </li>
+              <li class="pb-3">
+                <i class="bi bi-telephone pl-3 gold border-0"></i>
+                <a href="#">تابعنا عبر تويتر</a>
+              </li>
+              <li class="pb-3">
+                <i class="bi bi-telephone pl-3 gold border-0"></i>
+                <a href="#">تابعنا عبر إنستجرام</a>
+              </li>
+              <li class="pb-3">
+                <i class="bi bi-geo-alt pl-3 gold border-0"></i>
+                <a href="#">تابعنا عبر اليوتيوب</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12 mt-5 mt-lg-0">
+          <div class="footer-list text-right text-light">
+            <h5 class="text-lg-right text-center">أبرز الصفحات</h5>
+            <div class="line mb-4 m-auto m-lg-0"></div>
+            <ul>
+              <li class="pb-3">
+                <a href="#">تسجيل</a>
+              </li>
+              <li class="pb-3">
+                <a href="#">عن إفادة</a>
+              </li>
+              <li class="pb-3">
+                <a href="#">خدماتنا</a>
+              </li>
+              <li class="pb-3">
+                <a href="#">توظيف</a>
+              </li>
+              <li class="pb-3">
+                <a href="#">الأسئلة الشائعة</a>
+              </li>
+              <li class="pb-3">
+                <a href="#">تواصل معنا</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="footer-list text-right text-light">
+            <div class="d-flex flex-column align-items-center position-relative">
+              <div class="logo">
+                <img src="assets/logo3.png" alt="" class="img img-fluid" />
+              </div>
+              <div class="txt max-70 pt-3">
+                لاشك أن مشوار الألف ميل يبدأ بخطوة واحدة نحـن فـي شركـة أفـادة للمــوارد البشريـة بعـون الله تعالـي قد بـدأنـا هذا المـشـوار ، ووضعـنا
+                نصـب أعيننا رؤية مستقبلية واضحه وهي تقديم خدمة راقية في مجال توريد العمالة بصورة قائمة على أحـدث النظـم التـي تتلاءم مع ثقافتنـا
+                وتقالـيدنـا وتتماشي مـع مـا تتطلبـه المرحلـة القادمـة ورؤيـة 2030
+              </div>
+              <div class="txt pt-4 text-white-50">جميع الحقوق محفوظة - شركة إفادة للموارد البشرية ©</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="leaflet.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>
