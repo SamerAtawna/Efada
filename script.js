@@ -155,9 +155,12 @@ var scene = new ScrollMagic.Scene({
   .addTo(controller);
 
 // map
-
 var map = L.map('map').setView([51.505, -0.09], 13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
-//center
-//marker
 map.setView([24.736435281794954, 46.738586], 10);
+
+// hide loading on website ready
+window.addEventListener('load', function () {
+  document.querySelector('.loader').style.display = 'none';
+  document.querySelector('html').style.overflow = 'auto';
+});

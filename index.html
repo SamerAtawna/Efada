@@ -15,6 +15,22 @@
     <!-- scss -->
   </head>
   <body>
+    <!-- LOADER -->
+    <div class="loader">
+      <div class="logo text-center">
+        <img class="img img-fluid w-50 pb-5" src="assets/white-logo.png" alt="logo" />
+      </div>
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <!-- FIRST SECTION -->
     <div class="container-fluid first-section">
       <div class="overlay"></div>
@@ -22,11 +38,11 @@
         <img class="w-75" src="assets/leftbg.png" alt="" />
       </div>
       <div class="container pt-4" style="z-index: 2">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="col-lg-5 col-md-12">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="col-lg-5 d-none d-lg-block">
             <div class="head-left d-flex flex-column">
               <div class="head-left-top d-none d-lg-flex">
-                <div class="pr-3 m-2">EN<i class="bi bi-globe pl-1"></i></div>
+                <div class="pr-3 ">EN<i class="bi bi-globe pl-1"></i></div>
                 <div class="px-3"><i class="bi bi-envelope"></i> info@efadh.com.sa</div>
                 <div class="px-3"><i class="bi bi-telephone"></i> 920008831</div>
               </div>
@@ -48,7 +64,7 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <ul class="nav navbar-nav collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="nav navbar navbar-nav collapse navbar-expand-md navbar-collapse text-nowrap" id="navbarTogglerDemo01">
               <li class="px-2 nav-item position-relative"><a class="nav-link nav-link-ltr" href="#contact"> اتصل بنا </a></li>
               <li class="px-2 nav-link nav-link-ltr position-relative">عروض</li>
               <li class="px-2 nav-link nav-link-ltr position-relative">توظيف</li>
@@ -57,7 +73,7 @@
               <li class="px-2 nav-link nav-link-ltr position-relative">الصفحة الرئيسية</li>
             </ul>
           </div>
-          <div class="col-1">
+          <div class="col-lg-1 col-4 col-md-2 d-none d-md-block">
             <!-- logo -->
             <div class="logo navbar-brand">
               <img class="img-fluid" src="assets/logo.png" alt="" />

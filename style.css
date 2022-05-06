@@ -5,11 +5,13 @@
 
 body {
     font-family: URW !important;
-    overflow-x: hidden !important;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+    overflow-y: hidden;
 }
+
 .first-section {
     height: 100vh;
     background-image: url("assets/bg.png");
@@ -85,10 +87,10 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  /* Mouse Styling */
-  .mouse {
+}
+
+/* Mouse Styling */
+.mouse {
     display: block;
     width: 28px;
     height: 48px;
@@ -98,9 +100,9 @@ html{
     left: 50%;
     margin-left: -13px;
     z-index: 9999;
-  }
-  
-  .mouse span {
+}
+
+.mouse span {
     display: block;
     margin: 6px auto;
     width: 2px;
@@ -116,22 +118,23 @@ html{
     animation-iteration-count: infinite;
     -webkit-animation-name: scroll;
     animation-name: scroll;
-  }
-  
-  @keyframes scroll {
+}
+
+@keyframes scroll {
     0% {
-      opacity: 1;
-      -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0);
-      }
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
     100% {
-      opacity: 0;
-      -webkit-transform: translateY(20px);
-      -ms-transform: translateY(20px);
-      transform: translateY(20px);
-      }
-  }
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+}
 
 .point {
     border: 1px solid white;
@@ -200,6 +203,111 @@ html{
 
 .t-right {
     text-align: right;
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .overlay-image-third {
@@ -353,6 +461,21 @@ html{
 
 .nav-link-grow-up:hover::before {
     height: 5px;
+}
+
+.loader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #9f6737;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1233px) {
